@@ -22,7 +22,7 @@ func main() {
 	handler := mcp.NewHandler()
 	server := mcp.NewServer(handler)
 
-	fmt.Fprintf(os.Stderr, "Launcher4j MCP Server v0.1.0 starting...\n")
+	fmt.Fprintf(os.Stderr, "Launcher4j MCP Server v0.2.0 starting...\n")
 
 	if err := server.Run(); err != nil {
 		fmt.Fprintf(os.Stderr, "MCP server error: %v\n", err)

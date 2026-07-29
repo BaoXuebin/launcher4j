@@ -14,7 +14,7 @@ import (
 const (
 	mcpVersion    = "2024-11-05"
 	serverName    = "launcher4j-mcp"
-	serverVersion = "0.1.0"
+	serverVersion = "0.2.0"
 )
 
 // JSON-RPC message types
